@@ -1,10 +1,10 @@
-## The two functions are designed to take as input a matrix and compute the inverse 
+## The two functions are designed to take as input a square, invertible matrix and compute the inverse 
 ## of the supplied matrix.  If the inverse matrix has already been computed, the 
 ## result is pulled from cache instead of performing the calculation again.
 
 ## References: "Demystifying makeVector()" - https://github.com/lgreski/datasciencectacontent/blob/master/markdown/rprog-breakingDownMakeVector.md 
 
-## This function takes as input a square matrix that is invertable and 
+## This function takes as input a square matrix that is invertible and 
 ## creates an R object that stores the matrix and its inverse.  The returned object
 ## contains a copy of the defined makeCacheMatrix() environment.
 
